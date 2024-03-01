@@ -1,12 +1,17 @@
 *, 
 ::after,
-**before{
+::before{
     box-sizing: border-box;
 }
 
 body{
     background-color: hsl(212, 45%, 89%);
     font-family: Outfit;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh;
 }
 
 .container{
@@ -14,7 +19,7 @@ body{
     padding: 2em;
     border-radius: 20px;
     text-align: center;
-    width: 25%;
+    width: 35%;
     background-color: hsl(0, 0%, 100%);
 }
 
@@ -36,15 +41,4 @@ p{
     font-weight: 700;
 }
 
-@media (max-width: 570px){
-    .container{
-        width: 60%;
-    }
-}
-
-@media (max-width: 840px){
-    .container{
-        width: 40%;
-    }
-}
 
