@@ -1,6 +1,6 @@
 *, 
 ::after,
-**before{
+::before{
     box-sizing: border-box;
 }
 
@@ -19,8 +19,8 @@ body{
     padding: 2em;
     border-radius: 20px;
     text-align: center;
-    width: 25%;
-    background-color: hsl(0, 0%, 100%);
+    width: 35%;
+    background-color: hsl(0, 0, 100%);
 }
 
 img{
@@ -41,15 +41,4 @@ p{
     font-weight: 700;
 }
 
-@media (max-width: 570px){
-    .container{
-        width: 60%;
-    }
-}
-
-@media (max-width: 840px){
-    .container{
-        width: 40%;
-    }
-}
 
