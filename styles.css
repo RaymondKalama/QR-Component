@@ -20,7 +20,7 @@ body{
     border-radius: 20px;
     text-align: center;
     width: 35%;
-    background-color: hsl(0, 0, 100%);
+    background-color: hsl(0, 0%, 100%);
 }
 
 img{
